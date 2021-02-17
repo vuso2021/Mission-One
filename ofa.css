@@ -1,0 +1,316 @@
+body{
+    font-family: tahoma;
+    background-image:url("pxt.jpg");
+    background-size: cover;
+    color:wheat;}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    background-color: rgb(0, 0, 0);}
+
+    .button {
+        margin: 6px;
+        padding:20px;}
+    .button:hover {
+        background-color:rgb(66, 51, 22);
+        margin: 6px;
+        padding:20px;}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:'outleft left left right right outright';
+    grid-gap: 50px;
+    width:100%;
+    padding: 0px; }
+
+.grid-container > div {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;}
+    
+    .left1 { 
+        grid-area: left;
+        width:95%;
+    
+    }
+
+    .right2 { 
+        grid-area: right; 
+        width:600px;}
+        h3 {
+            font-size: 60px;
+            font-family:Times New Roman;
+            margin:10px;}
+
+        .span{
+            color:#ceb02b;}
+        
+        span{
+            color:#ceb02b;}
+        
+        .social {
+            margin-bottom: 50px;
+            margin-top:0px;
+            color: wheat;}
+        
+        a{
+            color: #ceb02b;
+            text-decoration:none;}
+        a:hover{
+            color:white;}
+
+        p{
+            margin:0px;
+            font-family: tahoma;}
+
+        #readmore{
+            color:wheat;
+            background-color:rgba(66, 51, 22, 0);
+            border: 2px solid;
+            border-radius: 50px;
+            text-align: center;
+            padding: 15px 50px;
+            margin: 30px 2px;
+            cursor: pointer;
+            font-style: italic;
+        }
+        #readmore:hover {
+            background-color:wheat;
+                font-style: italic;
+                color:black;
+                }
+
+.flex-container {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background: url("https://th.bing.com/th/id/R506c69e09072b7c6730a70ead3ad102f?rik=G0NZt2T2M3wGdQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-of4RLqw2gHw%2fT6I8oBvdZYI%2fAAAAAAAAACw%2fZJDQNdbIjbY%2fs1600%2fbg-body.jpg&ehk=uo%2bXi3mlxshWTnOnEuOvNxpsUdWldwsaKji8RbL%2bApY%3d&risl=&pid=ImgRaw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:wheat;
+    }
+
+.flex-container2 {
+    display: flex;
+    justify-content:left;
+    
+    background-image:url("https://4.bp.blogspot.com/-NusT8_BxXvU/WigtjvJvKLI/AAAAAAABOyg/VP7N3f2xgkAOOU2LPKaVCBdTsMiDJp_EgCK4BGAYYCw/s1600/Web-design.jpg");
+    background-size: cover;
+    color:black;
+    padding:50px;        
+    }
+
+    #left2{
+        width: 350px;
+        margin: 0px;
+        }
+    
+    
+
+
+    /*experience*/
+    #skills{
+    width:300px ;
+    margin: 40px;
+    text-align:left;
+    background-color:rgba(138, 4, 138, 0.534);
+   
+}
+
+    /*current project*/
+    #current{
+        width: 400px;
+        margin: 40px;
+        text-align:left;
+        background-color:rgba(11, 63, 63, 0.712);
+    }
+
+    /*previous project*/
+    #previous{
+        width: 400px;
+        margin: 40px;
+        text-align:left;
+        background-color:rgba(24, 16, 0, 0.774);
+    }
+
+    h4 {
+        font-size: 20px;
+        margin:20px;
+        }
+    
+    h5 {
+        font-size: 30px;
+        margin:10px;}
+
+        ul {
+            list-style-image:none;
+            width:350px;
+          }
+
+        #hcenter{
+            text-align: center;
+            width: 100%;}
+
+        form{
+            background-image: url(https://png.pngtree.com/back_origin_pic/05/11/16/b666e7ed6dfee5b1caacb29e545ae679.jpg);
+                
+            margin-top:0px;
+            margin-bottom:80px;
+            margin-left:0px;
+            margin-right:0px;
+          
+            padding-left:50px;
+            padding-right:50px;
+            padding-top:10px;
+            padding-bottom:10px;
+                          
+            border-radius: 30px;
+            border-style:solid;
+            border-width:2px;}
+            
+            label{
+                font-style: italic;
+                color:black;}
+            
+            #ltitle{
+                color:maroon;
+            }
+
+            input[type=email], input[type=text]{
+                padding: 2px 2px;
+                margin:8px 0;
+                border: none;
+                border-bottom: 2px solid maroon;}
+
+            input[type=radio] {
+                margin:5px;
+                font-style: normal;
+                
+                cursor:pointer;
+                }
+            
+            
+
+            #textarea{
+                width: 200px;
+                background-color:rgb(254, 255, 199);
+                text-align: left;}
+
+            input[type=submit]{
+                background-color: rgb(58, 1, 1);
+                color:rgb(255, 255, 255);
+                width: 100px;
+                cursor: pointer;}
+                    
+            input[type=reset]{
+                background-color: rgb(58, 1, 1);
+                color:rgb(255, 255, 255);
+                width: 100px;
+                cursor: pointer;}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(0, 0, 0);
+    color: white;}
+
+
+
+
+
+
+                
+                
+                
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
