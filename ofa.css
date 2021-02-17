@@ -53,9 +53,10 @@ header{
             color:#ceb02b;}
         
         .social {
-            margin-bottom: 50px;
-            margin-top:0px;
-            color: wheat;}
+            margin-bottom: 20px;   
+            color: wheat;
+            
+            }
         
         a{
             color: #ceb02b;
@@ -114,7 +115,7 @@ header{
 
     /*experience*/
     #skills{
-    width:300px ;
+    width: 90%;
     margin: 40px;
     text-align:left;
     background-color:rgba(138, 4, 138, 0.534);
@@ -123,7 +124,7 @@ header{
 
     /*current project*/
     #current{
-        width: 400px;
+        width: 90%;
         margin: 40px;
         text-align:left;
         background-color:rgba(11, 63, 63, 0.712);
@@ -131,11 +132,13 @@ header{
 
     /*previous project*/
     #previous{
-        width: 400px;
+        width: 90%;
         margin: 40px;
         text-align:left;
         background-color:rgba(24, 16, 0, 0.774);
     }
+
+    
 
     h4 {
         font-size: 20px;
@@ -144,7 +147,7 @@ header{
     
     h5 {
         font-size: 30px;
-        margin:10px;}
+        }
 
         ul {
             list-style-image:none;
